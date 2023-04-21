@@ -32,6 +32,13 @@ Create a project in Tigris (e.g. via the
 [Tigris Cloud Console](https://console.preview.tigrisdata.cloud/?utm_source=github&utm_medium=github&utm_campaign=tern-stack-example))
 and populate the configuration values in the `config.env` file:
 
+<center><img src="./create-new-project.png" /></center>
+<center><img src="./naming-project.png"/></center>
+<center><img src="./complate-your-project.png"/></center>
+<center><img src="./in-database.png"/></center>
+<center><img src="./check-your-applicationkey.png"/></center>
+<center><img src="./settingkey-in-your-project-file.png" /></center>
+
 ```
 TIGRIS_CLIENT_ID={TIGRIS_CLIENT_ID}
 TIGRIS_CLIENT_SECRET={TIGRIS_CLIENT_SECRET}
@@ -55,21 +62,10 @@ Start the client:
 cd tern/client
 npm install
 npm start
+
+or 
+yarn
+
+yarn start
 ```
 
-## Tests
-
-The MERN code base came with some tests that don't appear to run by default when
-running `npm test`. However, you can manually run the existing two tests by
-starting the client and server (as above) and then running:
-
-```sh
-node_modules/.bin/cypress run cypress/integration/endToEnd.spec.js
-```
-
-## Get involved
-
-- 💻 Contribute to [Tigris](https://github.com/tigrisdata/tigris), the open
-  source serverless NoSQL and Search platform
-- 🌱 Join the
-  [Tigris Discord](https://www.tigrisdata.com/discord/?utm_source=github&utm_medium=github&utm_campaign=tern-stack-example)
